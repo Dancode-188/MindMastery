@@ -1,0 +1,492 @@
+.unique-contact-info {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unique-contact-info div {
+    display: flex;
+    align-items: center;
+}
+
+.unique-contact-info div p {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.unique-contact-info div p span {
+    margin-right: 5px;
+    color: red;
+}
+
+.social-icons i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #e4405f;
+}
+
+.fa-tiktok {
+    color: #000000;
+}
+
+.fa-twitter {
+    color: #55acee;
+}
+
+.fa-whatsapp {
+    color: #25d366;
+}
+
+
+/* Nav bar section */
+
+.navbar-custom {
+    /* background-color: #3f313a; */
+    /* background-color: #2e2330; */
+    /* background-color: #d3d3d3; */
+    background-color: dodgerblue;
+    /* background-color: #89cff0; */
+    /* background-color: #333; Dark background color */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+.fa-home {
+    color: #f8f9fa;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.custom-btn {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.nav-link.btn.btn-primary.text-white.custom-btn.unique-btn.btn-book {
+    padding: 0.6rem 1.3rem;
+    background-color: #ff0245;
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    line-height: 1;
+    border-radius: 25px;
+    color: #1a70bc;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+    outline: none;
+}
+
+.nav-link.btn.btn-primary.text-white.custom-btn.unique-btn.btn-book:hover {
+    background-color: #ff004f;
+    color: #fff;
+}
+
+
+/* home section style*/
+
+.background-image.unique-background-image {
+    background: url("../images/backimg.jpg") no-repeat center center;
+    /* background: url('images/backimg.jpg') no-repeat center center; */
+    /* background: url('BestTeeth\ Whitening.jpg') no-repeat center center; */
+    background-size: cover;
+    height: 80vh;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-custom {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+
+/* about us section */
+
+.about-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.about-section h2 {
+    text-align: center;
+}
+
+
+/* 
+  .about-section .row {
+    justify-content: center; 
+  }
+  
+  .about-section .col-md-6 {
+    text-align: center; 
+  } */
+
+
+/* ours services section style */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* .title .unique-title {
+    text-align: center;
+    color: #343a40
+  } */
+
+.unique-title {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.col {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* Testimonial section */
+
+
+/* 
+  #client-testimonial-carousel {
+    background-color: #343a40;
+    padding: 0;
+  }
+  
+  .carousel-inner {
+    padding: 20px;
+  }
+  
+  .carousel-item {
+    min-height: 250px;
+  }
+  
+  .carousel-item.active {
+    display: flex;
+    justify-content: center;
+  }
+  
+  blockquote {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  
+  blockquote p {
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  blockquote footer {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .client-review-stars {
+    color: #ffd700;
+    font-size: 24px;
+    margin-top: 10px;
+  } */
+
+header.unique-contact-info {
+    background-image: url("./assets/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+}
+
+header .logo-and-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header .logo-and-info .img-container img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+header .logo-and-info p {
+    margin: 5px 0;
+}
+
+header .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: white;
+}
+
+.img-container {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+#logo_img {
+    max-width: 100%;
+    height: auto;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 0 5px;
+    color: #333;
+}
+
+.navbar-custom {
+    /* background-color: #1a1a1a; */
+    background-color: dodgerblue;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-custom .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media (max-width: 991.98px) {
+    .navbar-custom .navbar-collapse {
+        background-color: dodgerblue;
+    }
+    .navbar-custom .navbar-nav .nav-link {
+        padding: 10px 0;
+        text-align: center;
+    }
+}
+
+.background-image {
+    background-image: url("./assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-size: 3em;
+}
+
+.overlay p {
+    font-size: 1.2em;
+    max-width: 600px;
+}
+
+.btn-custom {
+    margin: 10px;
+}
+
+.btn-colr {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.about-section {
+    padding: 60px 0;
+}
+
+.about-section h2 {
+    margin-bottom: 40px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.services-section {
+    padding: 60px 0;
+}
+
+.services-section .row .col {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services-section .row .col img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.services-section .row .col h4 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.unique-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.unique-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.unique-about-section {
+    padding: 20px;
+}
+
+.unique-background-image {
+    background-image: url("./assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.unique-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.unique-btn {
+    margin: 10px;
+}
+
+.unique-footer {
+    padding: 10px;
+    background-color: #1a1a1a;
+    text-align: center;
+    color: white;
+}
+
+.unique-map {
+    margin-top: 20px;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+.fa-home {
+    color: #f8f9fa;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.custom-btn {
+    width: 200px;
+    border-radius: 5px;
+}
+
+
+/* .nav-link.btn.btn-primary.text-white.custom-btn.unique-btn.btn-book {
+    padding: 0.6rem 1.3rem;
+    background-color: #ff0245;
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    line-height: 1;
+    border-radius: 25px;
+    color: #1a70bc;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+    outline: none;
+}
+
+.nav-link.btn.btn-primary.text-white.custom-btn.unique-btn.btn-book:hover {
+    background-color: #ff004f;
+    color: #fff;
+} */
